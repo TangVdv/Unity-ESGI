@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 12f;
+    private float moveSpeed;
+    public float walkSpeed = 5f;
+    public float sprintSpeed = 10f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -14,8 +16,15 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    Player playerScript;
+
     Vector3 velocity;
     bool isGrounded;
+
+    void Start()
+    {
+        playerScript = GetComponent<Player>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -31,8 +40,23 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
+         
+        if (Input.GetKey(KeyCode.LeftShift) && playerScript.currentStamina > 0)
+        {
+            moveSpeed = sprintSpeed;
+            playerScript.SetStamina(-.01f);
+            
+        }
+        else
+        {
+            moveSpeed = walkSpeed;
+            if(playerScript.currentStamina < playerScript.maxStamina)
+            {
+                playerScript.SetStamina(.01f);
+            }
+        }
 
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * moveSpeed * Time.deltaTime);
 
         if(Input.GetButtonDown("Jump") && isGrounded)
         {

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 163933410511693375}
   - component: {fileID: 1443688774652552421}
   - component: {fileID: 4446976288161681203}
+  - component: {fileID: -5463486456345536863}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -74,6 +75,21 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &-5463486456345536863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830255995817921844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a6f0b4fc478994496741bfe9704057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!1 &2901708411930236856
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,5 +297,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9078f8bf5df3745a9efc0d0f1eb274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 250
   playerBody: {fileID: 163933410511693375}

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int catchingScore = 0;
 
     public int maxHealth = 100;
     public int currentHealth;
@@ -12,8 +11,11 @@ public class Player : MonoBehaviour
     public float maxStamina = 100f;
     public float currentStamina;
 
+    public string maxCatchingScore = "2421";
+
     public HealthBar healthBar;
     public StaminaBar staminaBar;
+    public PokemonUI pokemon;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,9 @@ public class Player : MonoBehaviour
 
         healthBar.SetMaxHealth(maxHealth);
         staminaBar.SetMaxStamina(maxStamina);
+        pokemon.SetMaxPokemon(maxCatchingScore);
+
+
     }
 
     // Update is called once per frame
@@ -33,11 +38,21 @@ public class Player : MonoBehaviour
             TakeDamage(20);
         }
 
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.N))
         {
-            AddCatchingPoint(1);
+            pokemon.AddPokemon();
         }
 
+    }
+
+    void OnTriggerEnter(Collider other)
+
+    {
+        if (other.gameObject.name == "superpotion" && healthBar.getHealth() < 100)
+        {
+            healthBar.AddHealth(30);
+            Destroy(other.gameObject);
+        }
     }
 
     void TakeDamage(int damage)
@@ -51,11 +66,6 @@ public class Player : MonoBehaviour
     {
         currentStamina += stamina;
         staminaBar.SetStamina(currentStamina);
-    }
-
-    public void AddCatchingPoint(int points)
-    {
-        catchingScore += points;
     }
 
 }

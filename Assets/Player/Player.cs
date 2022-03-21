@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int catchingScore = 0;
 
     public int maxHealth = 100;
     public int currentHealth;
@@ -13,7 +14,7 @@ public class Player : MonoBehaviour
 
     public HealthBar healthBar;
     public StaminaBar staminaBar;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,12 @@ public class Player : MonoBehaviour
         {
             TakeDamage(20);
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            AddCatchingPoint(1);
+        }
+
     }
 
     void TakeDamage(int damage)
@@ -45,6 +51,11 @@ public class Player : MonoBehaviour
     {
         currentStamina += stamina;
         staminaBar.SetStamina(currentStamina);
+    }
+
+    public void AddCatchingPoint(int points)
+    {
+        catchingScore += points;
     }
 
 }

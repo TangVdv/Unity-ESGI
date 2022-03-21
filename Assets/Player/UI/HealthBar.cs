@@ -18,4 +18,14 @@ public class HealthBar : MonoBehaviour
     {
         slider.value = health;
     }
+
+    public void AddHealth(int health)
+    {
+        slider.value += health;
+    }
+
+    public float getHealth()
+    {
+        return slider.value;
+    }
 }

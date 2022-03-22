@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PackageVersion: 
   ImporterSettings:
-    StartIndex: 0
-    EndIndex: 0
+    StartIndex: 5
+    EndIndex: 14
     ImportModel: 1
     ImportTextures: 1
     ImportMaterials: 1
@@ -131,6 +131,26 @@ MonoBehaviour:
     ImportPath: Assets/Bin3DS/
   mergedBinariesPreview:
   - PokemonMergedBinary:
+    - Assets/Bin3DS/Araquanid\dec_09658.bin
+    - Assets/Bin3DS/Araquanid\dec_09659.bin
+    - Assets/Bin3DS/Araquanid\dec_09660.bin
+    - Assets/Bin3DS/Araquanid\dec_09661.bin
+    - Assets/Bin3DS/Araquanid\dec_09662.bin
+    - Assets/Bin3DS/Araquanid\dec_09663.bin
+    - Assets/Bin3DS/Araquanid\dec_09664.bin
+    - Assets/Bin3DS/Araquanid\dec_09665.bin
+    - Assets/Bin3DS/Araquanid\dec_09666.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Blacephalon\dec_10522.bin
+    - Assets/Bin3DS/Blacephalon\dec_10523.bin
+    - Assets/Bin3DS/Blacephalon\dec_10524.bin
+    - Assets/Bin3DS/Blacephalon\dec_10525.bin
+    - Assets/Bin3DS/Blacephalon\dec_10526.bin
+    - Assets/Bin3DS/Blacephalon\dec_10527.bin
+    - Assets/Bin3DS/Blacephalon\dec_10528.bin
+    - Assets/Bin3DS/Blacephalon\dec_10529.bin
+    - Assets/Bin3DS/Blacephalon\dec_10530.bin
+  - PokemonMergedBinary:
     - Assets/Bin3DS/Chansey\dec_01486.bin
     - Assets/Bin3DS/Chansey\dec_01487.bin
     - Assets/Bin3DS/Chansey\dec_01488.bin
@@ -141,15 +161,125 @@ MonoBehaviour:
     - Assets/Bin3DS/Chansey\dec_01493.bin
     - Assets/Bin3DS/Chansey\dec_01494.bin
   - PokemonMergedBinary:
-    - Assets/Bin3DS/test\dec_01495.bin
-    - Assets/Bin3DS/test\dec_01496.bin
-    - Assets/Bin3DS/test\dec_01497.bin
-    - Assets/Bin3DS/test\dec_01498.bin
-    - Assets/Bin3DS/test\dec_01499.bin
-    - Assets/Bin3DS/test\dec_01500.bin
-    - Assets/Bin3DS/test\dec_01501.bin
-    - Assets/Bin3DS/test\dec_01502.bin
-    - Assets/Bin3DS/test\dec_01503.bin
+    - Assets/Bin3DS/Doublade\dec_08812.bin
+    - Assets/Bin3DS/Doublade\dec_08813.bin
+    - Assets/Bin3DS/Doublade\dec_08814.bin
+    - Assets/Bin3DS/Doublade\dec_08815.bin
+    - Assets/Bin3DS/Doublade\dec_08816.bin
+    - Assets/Bin3DS/Doublade\dec_08817.bin
+    - Assets/Bin3DS/Doublade\dec_08818.bin
+    - Assets/Bin3DS/Doublade\dec_08819.bin
+    - Assets/Bin3DS/Doublade\dec_08820.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Garbodor\dec_07237.bin
+    - Assets/Bin3DS/Garbodor\dec_07238.bin
+    - Assets/Bin3DS/Garbodor\dec_07239.bin
+    - Assets/Bin3DS/Garbodor\dec_07240.bin
+    - Assets/Bin3DS/Garbodor\dec_07241.bin
+    - Assets/Bin3DS/Garbodor\dec_07242.bin
+    - Assets/Bin3DS/Garbodor\dec_07243.bin
+    - Assets/Bin3DS/Garbodor\dec_07244.bin
+    - Assets/Bin3DS/Garbodor\dec_07245.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Groudon-Primal\dec_04888.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04889.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04890.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04891.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04892.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04893.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04894.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04895.bin
+    - Assets/Bin3DS/Groudon-Primal\dec_04896.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Hypno\dec_01288.bin
+    - Assets/Bin3DS/Hypno\dec_01289.bin
+    - Assets/Bin3DS/Hypno\dec_01290.bin
+    - Assets/Bin3DS/Hypno\dec_01291.bin
+    - Assets/Bin3DS/Hypno\dec_01292.bin
+    - Assets/Bin3DS/Hypno\dec_01293.bin
+    - Assets/Bin3DS/Hypno\dec_01294.bin
+    - Assets/Bin3DS/Hypno\dec_01295.bin
+    - Assets/Bin3DS/Hypno\dec_01296.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Kecleon\dec_04519.bin
+    - Assets/Bin3DS/Kecleon\dec_04520.bin
+    - Assets/Bin3DS/Kecleon\dec_04521.bin
+    - Assets/Bin3DS/Kecleon\dec_04522.bin
+    - Assets/Bin3DS/Kecleon\dec_04523.bin
+    - Assets/Bin3DS/Kecleon\dec_04524.bin
+    - Assets/Bin3DS/Kecleon\dec_04525.bin
+    - Assets/Bin3DS/Kecleon\dec_04526.bin
+    - Assets/Bin3DS/Kecleon\dec_04527.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Krokorok\dec_07075.bin
+    - Assets/Bin3DS/Krokorok\dec_07076.bin
+    - Assets/Bin3DS/Krokorok\dec_07077.bin
+    - Assets/Bin3DS/Krokorok\dec_07078.bin
+    - Assets/Bin3DS/Krokorok\dec_07079.bin
+    - Assets/Bin3DS/Krokorok\dec_07080.bin
+    - Assets/Bin3DS/Krokorok\dec_07081.bin
+    - Assets/Bin3DS/Krokorok\dec_07082.bin
+    - Assets/Bin3DS/Krokorok\dec_07083.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Magikarp\dec_01675.bin
+    - Assets/Bin3DS/Magikarp\dec_01676.bin
+    - Assets/Bin3DS/Magikarp\dec_01677.bin
+    - Assets/Bin3DS/Magikarp\dec_01678.bin
+    - Assets/Bin3DS/Magikarp\dec_01679.bin
+    - Assets/Bin3DS/Magikarp\dec_01680.bin
+    - Assets/Bin3DS/Magikarp\dec_01681.bin
+    - Assets/Bin3DS/Magikarp\dec_01682.bin
+    - Assets/Bin3DS/Magikarp\dec_01683.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Miltank\dec_03223.bin
+    - Assets/Bin3DS/Miltank\dec_03224.bin
+    - Assets/Bin3DS/Miltank\dec_03225.bin
+    - Assets/Bin3DS/Miltank\dec_03226.bin
+    - Assets/Bin3DS/Miltank\dec_03227.bin
+    - Assets/Bin3DS/Miltank\dec_03228.bin
+    - Assets/Bin3DS/Miltank\dec_03229.bin
+    - Assets/Bin3DS/Miltank\dec_03230.bin
+    - Assets/Bin3DS/Miltank\dec_03231.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Trevenant\dec_09082.bin
+    - Assets/Bin3DS/Trevenant\dec_09083.bin
+    - Assets/Bin3DS/Trevenant\dec_09084.bin
+    - Assets/Bin3DS/Trevenant\dec_09085.bin
+    - Assets/Bin3DS/Trevenant\dec_09086.bin
+    - Assets/Bin3DS/Trevenant\dec_09087.bin
+    - Assets/Bin3DS/Trevenant\dec_09088.bin
+    - Assets/Bin3DS/Trevenant\dec_09089.bin
+    - Assets/Bin3DS/Trevenant\dec_09090.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Tropius\dec_04573.bin
+    - Assets/Bin3DS/Tropius\dec_04574.bin
+    - Assets/Bin3DS/Tropius\dec_04575.bin
+    - Assets/Bin3DS/Tropius\dec_04576.bin
+    - Assets/Bin3DS/Tropius\dec_04577.bin
+    - Assets/Bin3DS/Tropius\dec_04578.bin
+    - Assets/Bin3DS/Tropius\dec_04579.bin
+    - Assets/Bin3DS/Tropius\dec_04580.bin
+    - Assets/Bin3DS/Tropius\dec_04581.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Wailord\dec_04159.bin
+    - Assets/Bin3DS/Wailord\dec_04160.bin
+    - Assets/Bin3DS/Wailord\dec_04161.bin
+    - Assets/Bin3DS/Wailord\dec_04162.bin
+    - Assets/Bin3DS/Wailord\dec_04163.bin
+    - Assets/Bin3DS/Wailord\dec_04164.bin
+    - Assets/Bin3DS/Wailord\dec_04165.bin
+    - Assets/Bin3DS/Wailord\dec_04166.bin
+    - Assets/Bin3DS/Wailord\dec_04167.bin
+  - PokemonMergedBinary:
+    - Assets/Bin3DS/Yanmega\dec_06067.bin
+    - Assets/Bin3DS/Yanmega\dec_06068.bin
+    - Assets/Bin3DS/Yanmega\dec_06069.bin
+    - Assets/Bin3DS/Yanmega\dec_06070.bin
+    - Assets/Bin3DS/Yanmega\dec_06071.bin
+    - Assets/Bin3DS/Yanmega\dec_06072.bin
+    - Assets/Bin3DS/Yanmega\dec_06073.bin
+    - Assets/Bin3DS/Yanmega\dec_06074.bin
+    - Assets/Bin3DS/Yanmega\dec_06075.bin
   customShaderSettings:
     bodyShader: {fileID: -6465566751694194690, guid: 707e4c837f2b58240a84f53df2eb732e, type: 3}
     irisShader: {fileID: -6465566751694194690, guid: e06474ae45c337c40975fcdd32084fcc, type: 3}

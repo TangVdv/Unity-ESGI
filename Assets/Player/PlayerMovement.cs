@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && playerScript.currentStamina > 0)
         {
             moveSpeed = sprintSpeed;
-            playerScript.SetStamina(-.01f);
+            playerScript.SetStamina(-.05f);
             
         }
         else

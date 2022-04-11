@@ -10,7 +10,7 @@ public class ChanseySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
         //Instantiate(Chansey, transform.position, transform.rotation);
 
     }

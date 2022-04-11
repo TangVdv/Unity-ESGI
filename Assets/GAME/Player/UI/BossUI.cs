@@ -7,7 +7,6 @@ public class BossUI : MonoBehaviour
 {
 
     public RawImage Cliff;
-    public RawImage Mountain;
     public RawImage Cave;
 
     public Color WrongColor;
@@ -23,7 +22,6 @@ public class BossUI : MonoBehaviour
         if (locked)
         {
             Cliff.color = WrongColor;
-            Mountain.color = WrongColor;
             Cave.color = WrongColor;
         }
         else
@@ -31,10 +29,6 @@ public class BossUI : MonoBehaviour
             if (Cliff.name == name)
             {
                 Cliff.color = GoodColor;
-            }
-            else if (Mountain.name == name)
-            {
-                Mountain.color = GoodColor;
             }
             else if (Cave.name == name)
             {

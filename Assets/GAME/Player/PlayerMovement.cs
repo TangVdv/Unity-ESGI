@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    private bool hasMinimumStaminaToRun = true;
+
     Player playerScript;
 
     Vector3 velocity;
@@ -41,18 +43,25 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
          
-        if (Input.GetKey(KeyCode.LeftShift) && playerScript.currentStamina > 0)
+        if (Input.GetKey(KeyCode.LeftShift) && playerScript.currentStamina > 0 && hasMinimumStaminaToRun)
         {
             moveSpeed = sprintSpeed;
-            playerScript.SetStamina(-.05f);
-            
+            playerScript.SetStamina(-.05f);      
         }
         else
-        {
+        { 
             moveSpeed = walkSpeed;
             if(playerScript.currentStamina < playerScript.maxStamina)
             {
                 playerScript.SetStamina(.01f);
+                if(playerScript.currentStamina >= 20)
+                {
+                    hasMinimumStaminaToRun = true;
+                }
+                else
+                {
+                    hasMinimumStaminaToRun = false;
+                }
             }
         }
 

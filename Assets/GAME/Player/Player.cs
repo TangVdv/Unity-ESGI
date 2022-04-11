@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    
     public int maxHealth = 100;
     public int currentHealth;
 
     public float maxStamina = 100f;
     public float currentStamina;
 
-    public string maxCatchingScore = "2421";
+    public string maxCatchingScore = "100";
 
     public HealthBar healthBar;
     public StaminaBar staminaBar;
     public PokemonUI pokemon;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +26,6 @@ public class Player : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
         staminaBar.SetMaxStamina(maxStamina);
         pokemon.SetMaxPokemon(maxCatchingScore);
-
-
     }
 
     // Update is called once per frame

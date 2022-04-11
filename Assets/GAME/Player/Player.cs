@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public float maxStamina = 100f;
     public float currentStamina;
 
-    public string maxCatchingScore = "100";
+    public string maxCatchingScore = "20";
 
     public HealthBar healthBar;
     public StaminaBar staminaBar;

@@ -41,11 +41,14 @@ public class PokemonUI : MonoBehaviour
 
     public void AddPokemon()
     {
-        int.TryParse(currentValueText.text, out i);
-        i += 1;
-        TriggerBoss();
-        
-        currentValueText.text = i.ToString();
+        if (i < 20)
+        {
+            int.TryParse(currentValueText.text, out i);
+            i += 1;
+            TriggerBoss();
+
+            currentValueText.text = i.ToString();
+        }
     }
 
     public string getPokemon()

@@ -14,7 +14,6 @@ public class EnemyAI : MonoBehaviour
     private Renderer render;
     private EnemyNav nav;
     private NavMeshAgent agent;
-    public bool isImmune = false;
     private Material default_mat;
     private bool isDead = false;
     public GameObject laser;
@@ -68,7 +67,7 @@ public class EnemyAI : MonoBehaviour
 
     private void OnCollisionEnter(Collision collider)
     {
-        if (collider.gameObject.CompareTag("Projectile") && !isImmune && !isDead)
+        if (collider.gameObject.CompareTag("Projectile") && !isDead)
         {
             StartCoroutine(WaitForDamage(0.1f, collider.gameObject.GetComponent<ProjectileScript>().damage));
         }
@@ -76,12 +75,13 @@ public class EnemyAI : MonoBehaviour
     
     IEnumerator WaitForDamage(float time, int damage)
     {
-        isImmune = true;
-        hp -= damage;
-        nav.playerSpotted = true;
-        render.material.SetColor("_Color", Color.red);
-        yield return new WaitForSeconds(time);
-        isImmune = false;
-        render.material.SetColor("_Color", Color.white);
+        if(hp > 0)
+        {
+            hp -= damage;
+            nav.playerSpotted = true;
+            render.material.SetColor("_Color", Color.red);
+            yield return new WaitForSeconds(time);
+            render.material.SetColor("_Color", Color.white);
+        }
     }
 }

@@ -7,6 +7,7 @@ public class ProjectileScript : MonoBehaviour
 {
     public GameObject blast;
     private float radius_value;
+    public int damage = 20;
     
     // Start is called before the first frame update
     void Start()
@@ -29,8 +30,8 @@ public class ProjectileScript : MonoBehaviour
     IEnumerator WaitInExplosion(float time, float radius)
     {
         blast.transform.localScale += new Vector3(radius,radius,radius);
-        Renderer rend = blast.GetComponent<Renderer>();
-        rend.material = Resources.Load<Material>("red");
+        var render = blast.GetComponent<Renderer>();
+        render.material.SetColor("_Color", Color.yellow);
         radius_value += radius;
         yield return new WaitForSeconds(time);
         Explode();

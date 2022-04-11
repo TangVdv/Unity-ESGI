@@ -11,12 +11,16 @@ public class Player : MonoBehaviour
     public float maxStamina = 100f;
     public float currentStamina;
 
+    public bool isImmune = false;
+
     public string maxCatchingScore = "2421";
 
     public HealthBar healthBar;
     public StaminaBar staminaBar;
     public PokemonUI pokemon;
-    
+
+    public int enemy_damage = 10;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +70,23 @@ public class Player : MonoBehaviour
     {
         currentStamina += stamina;
         staminaBar.SetStamina(currentStamina);
+    }
+
+
+    public void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy_Damage") && !isImmune)
+        {
+            StartCoroutine(WaitForDamage(0.5f));
+        }
+    }
+
+    IEnumerator WaitForDamage(float time)
+    {
+        currentHealth -= enemy_damage;
+        isImmune = true;
+        yield return new WaitForSeconds(time);
+        isImmune = false;
     }
 
 }

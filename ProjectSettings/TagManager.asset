@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Tourelle
   - Balle
+  - Projectile_Damage
+  - Projectile
+  - Ennemy
+  - Enemy_Damage
   layers:
   - Default
   - TransparentFX

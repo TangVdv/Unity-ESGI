@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: -2645096397992316162}
   m_Layer: 0
   m_Name: pokeball_prefab
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -572,5 +572,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07722477a9288504295cea8ff230bb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blast: {fileID: 0}
+  blast: {fileID: 1935564618634983731, guid: 85c0de78d161da940b383aca0d231ab1, type: 3}
   damage: 20

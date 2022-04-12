@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'fr' Physical Memory: 15712 MB
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'fr' Physical Memory: 16151 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,116 +11,116 @@ C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Git/Unity-ESGI
+C:/Users/thibd/Projets C#/Projet Partiel/Unity-ESGI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57356
-Successfully changed project path to: C:/Git/Unity-ESGI
-C:/Git/Unity-ESGI
+49733
+Successfully changed project path to: C:/Users/thibd/Projets C#/Projet Partiel/Unity-ESGI
+C:/Users/thibd/Projets C#/Projet Partiel/Unity-ESGI
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 131.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Git/Unity-ESGI/Assets
+[Subsystems] Discovering subsystems at path C:/Users/thibd/Projets C#/Projet Partiel/Unity-ESGI/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
     Vendor:   
-    VRAM:     7856 MB
-    Driver:   27.20.15002.1004
+    VRAM:     8075 MB
+    Driver:   27.20.100.9365
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002349 seconds.
+Registered in 0.004413 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 152.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  1.187 seconds
 Domain Reload Profiling:
-	ReloadAssembly (825ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (648ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (259ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006740 seconds.
+Registered in 0.014294 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 174.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.829 seconds
+- Completed reload, in  2.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1830ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (2788ms)
+		BeginReloadAssembly (284ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1599ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2432ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
+			SetupTypeCache (571ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (899ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (689ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (950ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3329 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 156.3 MB.
-System memory in use after: 156.4 MB.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.5 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3778.
-Total: 4.753100 ms (FindLiveObjects: 0.327900 ms CreateObjectMapping: 0.120300 ms MarkObjects: 4.108300 ms  DeleteObjects: 0.194900 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3795.
+Total: 5.444700 ms (FindLiveObjects: 0.415900 ms CreateObjectMapping: 0.248800 ms MarkObjects: 4.555800 ms  DeleteObjects: 0.222000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,91 +135,382 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GAME/Scenes/Menu/Main_Menu.unity
-  artifactKey: Guid(fa756e3560961084b8d4da471e84f780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GAME/Scenes/Menu/Main_Menu.unity using Guid(fa756e3560961084b8d4da471e84f780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c80716d8ee7d8848e566a68f8cf47d') in 0.023140 seconds 
-  Import took 0.030002 seconds .
+  path: Assets/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Pass 1.prefab
+  artifactKey: Guid(afaddd4006a62a74abdae8f295e71be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Pass 1.prefab using Guid(afaddd4006a62a74abdae8f295e71be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b044bf8334c27666da7095bee320aa6') in 0.392678 seconds 
+  Import took 0.400823 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/_GamesPlusJames Menu Assets/Particle/particle1.mat
-  artifactKey: Guid(d0ed09ccd86fc47448d209b35dc0f4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_GamesPlusJames Menu Assets/Particle/particle1.mat using Guid(d0ed09ccd86fc47448d209b35dc0f4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66268ee72444624f2d384bc61d732124') in 0.290309 seconds 
-  Import took 0.296316 seconds .
+  Time since last request: 0.000341 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.prefab
+  artifactKey: Guid(a18d360064d101f4c93889e7933c719c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.prefab using Guid(a18d360064d101f4c93889e7933c719c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0920b4d82aade5e917bdb994efe954') in 0.027646 seconds 
+  Import took 0.035993 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.948059 seconds.
-  path: Assets/Exported/Button.prefab
-  artifactKey: Guid(82ce3305767c70b46a6f8291bf06602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exported/Button.prefab using Guid(82ce3305767c70b46a6f8291bf06602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7203fa16409bf517077fae1097f78f20') in 0.098871 seconds 
-  Import took 0.107617 seconds .
+  Time since last request: 0.000609 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.prefab
+  artifactKey: Guid(bbb0ac67dc34f944785228d04e038485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.prefab using Guid(bbb0ac67dc34f944785228d04e038485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593284c8a931c02cf1ad5b2873ceccfa') in 0.028356 seconds 
+  Import took 0.038774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.455680 seconds.
-  path: Assets/Exported/Play button (Missing Prefab with guid_ c3ee31c44a53fac4aac0e6588bc5c8b2).prefab
-  artifactKey: Guid(69d57cd201f2a4a46be02fffd4f4f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Exported/Play button (Missing Prefab with guid_ c3ee31c44a53fac4aac0e6588bc5c8b2).prefab using Guid(69d57cd201f2a4a46be02fffd4f4f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc93c32f0b9e2b9d114b41ba20daa92c') in 0.014159 seconds 
-  Import took 0.023104 seconds .
+  Time since last request: 0.000327 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.prefab
+  artifactKey: Guid(33889ea1ee6e4fe4b922d09e7cee3b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.prefab using Guid(33889ea1ee6e4fe4b922d09e7cee3b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f428bf83198089b4bf66f87c6a75863') in 0.024802 seconds 
+  Import took 0.034751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.prefab
+  artifactKey: Guid(6b99da1a39ea2614cb882ba24d69e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.prefab using Guid(6b99da1a39ea2614cb882ba24d69e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd103e4a95628c7e529c3f50fdea9b81c') in 0.023823 seconds 
+  Import took 0.032003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.fbx
+  artifactKey: Guid(b1d3980c138450e4d88637233ddbe2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.fbx using Guid(b1d3980c138450e4d88637233ddbe2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0feb30e2b0ed465723a07166eb399d') in 0.070252 seconds 
+  Import took 0.078004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Examples/Prefabs/Plank.prefab
+  artifactKey: Guid(c9c7047f49d1a47f8b32b67338d4fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Examples/Prefabs/Plank.prefab using Guid(c9c7047f49d1a47f8b32b67338d4fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0f2efaaaec420fb8e31bbbccb948fa') in 0.019999 seconds 
+  Import took 0.027174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Pass 2.prefab
+  artifactKey: Guid(d7be01913fd43c542a7c03fa290742fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Prefabs/Clifftile Pass 2.prefab using Guid(d7be01913fd43c542a7c03fa290742fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156aa2d57b69084e472d88f31b6ddace') in 0.032153 seconds 
+  Import took 0.041484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/_GamesPlusJames Menu Assets/Particle/Particle System.prefab
+  artifactKey: Guid(8830ec8bd4adccf4ab8b64535911bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GamesPlusJames Menu Assets/Particle/Particle System.prefab using Guid(8830ec8bd4adccf4ab8b64535911bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c47ca7f8988fe2640962b3e4f6c23b') in 0.035464 seconds 
+  Import took 0.042440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.fbx
+  artifactKey: Guid(bb037aee249e689428ec651b0b51f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant5/plant_5.fbx using Guid(bb037aee249e689428ec651b0b51f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df628afc33f01548422225e02ac0597f') in 0.091030 seconds 
+  Import took 0.098139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/GAME/Meshes/lava map.fbx
+  artifactKey: Guid(a8561597b285a4e4ba2b35592bc642d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Meshes/lava map.fbx using Guid(a8561597b285a4e4ba2b35592bc642d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e1c380a60f5f042ed2b23162675616') in 0.140074 seconds 
+  Import took 0.145347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.fbx
+  artifactKey: Guid(d8e5dcea97a05084d8b4b8fbf34dc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant7/plant_7.fbx using Guid(d8e5dcea97a05084d8b4b8fbf34dc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f582e2832efe475292017598e889c') in 0.029555 seconds 
+  Import took 0.036300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.prefab
+  artifactKey: Guid(edfefdacf162ed84caeedfddd0879e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.prefab using Guid(edfefdacf162ed84caeedfddd0879e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae598f11b0c23a070fc7d7c561380658') in 0.025858 seconds 
+  Import took 0.036189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Exported/Hypno/Hypno.prefab
+  artifactKey: Guid(22d0350f7aa298f41ab71b28ccbf0368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Hypno/Hypno.prefab using Guid(22d0350f7aa298f41ab71b28ccbf0368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e51c7b24c144807fbb97373a0fbe4d') in 0.589367 seconds 
+  Import took 0.602781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.fbx
+  artifactKey: Guid(5250b3781bb03b048977ae7fbaddd4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.fbx using Guid(5250b3781bb03b048977ae7fbaddd4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8435378576958c3fb2a8c624eb7a3773') in 0.036176 seconds 
+  Import took 0.046259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Exported/Gun/Projectile.prefab
+  artifactKey: Guid(ab03615289f96814a823a2b34e5ceb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Gun/Projectile.prefab using Guid(ab03615289f96814a823a2b34e5ceb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d8c9aae5a789037671f9dfcb78c8bf') in 0.016432 seconds 
+  Import took 0.022282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Exported/Groudon-Primal/Groudon-Primal.prefab
+  artifactKey: Guid(e43ae6acc06c1614195b067cda1c44ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Groudon-Primal/Groudon-Primal.prefab using Guid(e43ae6acc06c1614195b067cda1c44ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094c1987125eea76cb02d87857306915') in 0.741497 seconds 
+  Import took 0.753040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 1.dae
+  artifactKey: Guid(4baa6dc1e84640745973ba84f8826e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 1.dae using Guid(4baa6dc1e84640745973ba84f8826e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0016da7c68758a7c02046f67001fe32') in 0.026987 seconds 
+  Import took 0.033604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/MaximeBrunoni/BridgesPack/Prefabs/Pedestal.prefab
+  artifactKey: Guid(627cc11a2a7d3dc46a52c576e188b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaximeBrunoni/BridgesPack/Prefabs/Pedestal.prefab using Guid(627cc11a2a7d3dc46a52c576e188b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad5e477f8aeb623c2dfd3a876c340b6') in 0.611554 seconds 
+  Import took 0.618207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.prefab
+  artifactKey: Guid(cde91130bdc27f048a43ca54fa3d6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant10/plant_10.prefab using Guid(cde91130bdc27f048a43ca54fa3d6aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cab7ad78c7b9e459eb6788a4b5fb5a6') in 0.023807 seconds 
+  Import took 0.031851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 2.dae
+  artifactKey: Guid(b1f16bf1bfcc6d641892093d72002001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 2.dae using Guid(b1f16bf1bfcc6d641892093d72002001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c93082bc703053bb88380cfcbe3f0c4') in 0.026708 seconds 
+  Import took 0.040013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/MaximeBrunoni/BridgesPack/Art/Meshes/Pedestal.fbx
+  artifactKey: Guid(162478e743dc86e4186c7867ffed50c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaximeBrunoni/BridgesPack/Art/Meshes/Pedestal.fbx using Guid(162478e743dc86e4186c7867ffed50c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5800d8a410bc3ad4f42c254ec5a2af') in 0.046898 seconds 
+  Import took 0.057579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.fbx
+  artifactKey: Guid(f904ed2aa18a3224eac326574d1d362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.fbx using Guid(f904ed2aa18a3224eac326574d1d362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0522cffb3c64182c4bb40088794542') in 0.032824 seconds 
+  Import took 0.042801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.fbx
+  artifactKey: Guid(1ef424e68357e6144b6b4cc6e274c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.fbx using Guid(1ef424e68357e6144b6b4cc6e274c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39077ea0ebab9e36e10d94d449c99eea') in 0.030380 seconds 
+  Import took 0.040326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.prefab
+  artifactKey: Guid(7d7017793b4bf6e4a8d3fb9dd5516951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.prefab using Guid(7d7017793b4bf6e4a8d3fb9dd5516951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c795d787c28fe0352161ef93b1f10a') in 0.022557 seconds 
+  Import took 0.031477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.prefab
+  artifactKey: Guid(186a57276e95813498c02ad2af30429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant6/plant_6.prefab using Guid(186a57276e95813498c02ad2af30429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8072f39eb766e2981638f81cccf6af') in 0.020030 seconds 
+  Import took 0.029819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.fbx
+  artifactKey: Guid(f291823f9b75a924b93a7422e8adc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant2/plant_2.fbx using Guid(f291823f9b75a924b93a7422e8adc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dda629d2d9f26aadb31261e52315fd') in 0.025802 seconds 
+  Import took 0.035587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.fbx
+  artifactKey: Guid(de293cfbfb38a70458f6b760859553f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant8/plant_8.fbx using Guid(de293cfbfb38a70458f6b760859553f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b0ffa19dfe630a68b16f61565a5966') in 0.025889 seconds 
+  Import took 0.035769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.fbx
+  artifactKey: Guid(30ae5fea4e92c4a449399b062965b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant3/plant_3.fbx using Guid(30ae5fea4e92c4a449399b062965b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5c457abca2a29cfbd44dad522fd842') in 0.027520 seconds 
+  Import took 0.036296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.prefab
+  artifactKey: Guid(9f2cb2da66bdaa34da78488a1480f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant9/plant_9.prefab using Guid(9f2cb2da66bdaa34da78488a1480f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afdfa185f30d5f6d8314304b05c3d5c') in 0.017885 seconds 
+  Import took 0.025760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.prefab
+  artifactKey: Guid(0f59c6f63553c7744ac3d7f67c8f0821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant1/plant_1.prefab using Guid(0f59c6f63553c7744ac3d7f67c8f0821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a363457bc627597d548256c0864143') in 0.017203 seconds 
+  Import took 0.025584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Exported/Magikarp/Magikarp.prefab
+  artifactKey: Guid(a4b26dbfcd14bc1448540c8a44a5b277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Magikarp/Magikarp.prefab using Guid(a4b26dbfcd14bc1448540c8a44a5b277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67e82577f4405d758c61353fcc7ab3b') in 0.170012 seconds 
+  Import took 0.180768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.fbx
+  artifactKey: Guid(c114d822c764b7b4c860a416d596368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Plants/Plant4/plant_4.fbx using Guid(c114d822c764b7b4c860a416d596368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b1afe7e404dd69f6b2f518e46ddbf7') in 0.023874 seconds 
+  Import took 0.032648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.792158 seconds.
+  path: Assets/Exported/Poke Ball/Projectile.prefab
+  artifactKey: Guid(738a7ced371e928478310d116c4810a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Poke Ball/Projectile.prefab using Guid(738a7ced371e928478310d116c4810a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968a2ec17a29cebf365962711c59a66f') in 0.015423 seconds 
+  Import took 0.022822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.137175 seconds.
+  path: Assets/Exported/Poke Ball/Blast.prefab
+  artifactKey: Guid(85c0de78d161da940b383aca0d231ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Poke Ball/Blast.prefab using Guid(85c0de78d161da940b383aca0d231ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c54395b2f2e597b6b83d5e4455605a4') in 0.014970 seconds 
+  Import took 0.023774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010212 seconds.
+  path: Assets/Exported/Poke Ball/Projectile.prefab
+  artifactKey: Guid(738a7ced371e928478310d116c4810a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Poke Ball/Projectile.prefab using Guid(738a7ced371e928478310d116c4810a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5974b817be3a10ca1522e294fbbce0') in 0.016254 seconds 
+  Import took 0.025212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.353870 seconds.
+  path: Assets/Exported/Poke Ball/pokeball_prefab.prefab
+  artifactKey: Guid(75a0935e659f3ee44854ce64e62558df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exported/Poke Ball/pokeball_prefab.prefab using Guid(75a0935e659f3ee44854ce64e62558df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3226cbf9f798195f9124409a57880b') in 0.501714 seconds 
+  Import took 0.510614 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008872 seconds.
+Registered in 0.009111 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.045 seconds
+- Completed reload, in  2.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2046ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (2492ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1751ms)
-			LoadAssemblies (134ms)
+		EndReloadAssembly (2174ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (521ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (818ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1080ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (692ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (903ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.9 MB.
-System memory in use after: 149.0 MB.
+Received signal SIGSEGV
+Stack trace:
+0x00007ffe598c9f6c (igd10iumd64) OpenAdapter10_2
+0x00007ffe598c73bc (igd10iumd64) OpenAdapter10_2
+0x00007ffe598c71dd (igd10iumd64) OpenAdapter10_2
+0x00007ffe5983910b (igd10iumd64) 
+0x00007ffe5985820f (igd10iumd64) OpenAdapter10_2
+0x00007ffe597802e8 (igd10iumd64) 
+0x00007ffe5978023a (igd10iumd64) 
+0x00007ffe598371f5 (igd10iumd64) 
+0x00007ffe597db3b1 (igd10iumd64) 
+0x00007ffe612908ea (d3d11) D3DKMTQueryResourceInfo
+0x00007ffe612642f3 (d3d11) D3DKMTQueryResourceInfo
+0x00007ffe61260258 (d3d11) D3DKMTQueryResourceInfo
+0x00007ffe612279ba (d3d11) D3DKMTWaitForVerticalBlankEvent
+0x00007ffe611a8fdd (d3d11) D3D11CoreCreateDevice
+0x00007ffe611a978c (d3d11) D3D11CoreCreateDevice
+0x00007ffe61253ee8 (d3d11) D3DKMTQueryResourceInfo
+0x00007ffe6125f695 (d3d11) D3DKMTQueryResourceInfo
+0x00007ffe6125f078 (d3d11) D3DKMTQueryResourceInfo
+0x00007ff6e894e7a9 (Unity) D3D11GeometryShader::Create
+0x00007ff6e8949766 (Unity) D3D11GeometryShader::D3D11GeometryShader
+0x00007ff6e90ccee0 (Unity) CreateGpuProgram
+0x00007ff6e89e75d6 (Unity) GfxDeviceClient::CreateGpuProgram
+0x00007ff6e8f7712b (Unity) ShaderLab::SubProgram::Compile
+0x00007ff6e99f8cbc (Unity) FinalizeVariant
+0x00007ff6e99fadeb (Unity) GetSubProgramForShaderSnippet
+0x00007ff6e8f77a58 (Unity) ShaderLab::Program::CompileShaderSubProgram
+0x00007ff6e8f789a2 (Unity) ShaderLab::Program::GetMatchingSubProgram
+0x00007ff6e8f7e53a (Unity) ShaderLab::ShaderState::FindSubProgramsToUse
+0x00007ff6e8f73760 (Unity) ShaderLab::Pass::PrepareVariant
+0x00007ff6e8f6d898 (Unity) ShaderVariantCollection::WarmupOneShaderImpl
+0x00007ff6e8f6e299 (Unity) ShaderVariantCollection::WarmupShadersImpl
+0x00007ff6e8f657fb (Unity) ShaderVariantCollection::CompileShaders
+0x00007ff6e9a04113 (Unity) WarmupEditorShaders
+0x00007ff6eaa238ce (Unity) Shader::ReloadAllShaders
+0x00007ff6ea0533ac (Unity) <lambda_b7fd2194c9d98d5c5f8d87939b09ad6c>::operator()
+0x00007ff6ea0da1f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff6ea0dc350 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6ea0dface (Unity) asio::io_service::run
+0x00007ff6ea07b7eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6ea07b840 (Unity) RunAssetImporterV2
+0x00007ff6e9b22a7d (Unity) Application::InitializeProject
+0x00007ff6e9f77ae2 (Unity) WinMain
+0x00007ff6eb6075e2 (Unity) __scrt_common_main_seh
+0x00007ffe68167034 (KERNEL32) BaseThreadInitThunk
+0x00007ffe683e2651 (ntdll) RtlUserThreadStart
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3858.
-Total: 6.073500 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.328000 ms MarkObjects: 5.083000 ms  DeleteObjects: 0.193400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

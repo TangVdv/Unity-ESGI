@@ -7,6 +7,9 @@ TagManager:
   - Tourelle
   - Balle
   - Spawner
+  - Enemy_Damage
+  - Projectile_Damage
+  - Projectile
   layers:
   - Default
   - TransparentFX
